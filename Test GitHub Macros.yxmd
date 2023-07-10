@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="258" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Disable">False</Value>
+          <Value name="BatchCommit">False</Value>
+          <Value name="FilePath" />
+          <Value name="TargetPath" />
+          <Value name="SelfCommit">True</Value>
+          <Value name="TargetDirectory">[Folder name]</Value>
+          <Value name="RepoOwner">JT-Alteryx</Value>
+          <Value name="GitHubRepo">sample_delete</Value>
+          <Value name="Branch">develop</Value>
+          <Value name="Protected">False</Value>
+          <Value name="CommitMessage">Commit message here</Value>
+          <Value name="BaseAddress">https://api.github.com/</Value>
+          <Value name="AccessToken">4E21EEDF0D129B39D6D4E542AA1E04F970C93BC6E32B22F11E6B46C2B44C0921212E05A621B3910C7095A4D3CF1BCE9206E6D9A378E1EB47D4E3ED0E1EA148CBBDFAE31D282CBBD918303A679D32F5D9A83A7E5DAAC8CBD607D77507EF7ECC9230C165012A0DED57FFE1230C51186B43E65AE2ED532D164B89DF5EFDFE6F8F2E0668DCD70BEAEB013136C8189C9A78E3B214C205D1542B821F5ED776AFF3F09576C574F0DA5CAF9FF8E9479A414D701F692B7EA17C145F28EA7AFB4015A148A4D2B6CA6E809CAD13A5A27B68FB03012231A3BF157DB13052819D70DEF9DCB24D01A0F09322BCA38D09A6C2D6B37106E65EF99A7C9541D14E407A2065D86A7655EE32600C105F1535AA4D9CE8E0842FE95F34F13580C54BB1AED9CB0E51D47EBEFCB274ACC293C23635CF62D0D6D0D031AC33040F4F233A04CF5C32C298F755B352520769EFE6696FDD3F1BEB22B15BC52FC0E41EAB70B</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="GitHub_Commit\GitHubCommit.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="233" y="185" width="145" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 4</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings>
+            <Position x="258" y="234" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Text Box (41)">https://api.github.com/</Value>
+              <Value name="RepoOwner">JT-Alteryx</Value>
+              <Value name="GitHubRepo">sample_delete</Value>
+              <Value name="Accesstoken">4E21EEDF0D129B39D6D4E542AA1E04F970C93BC6E32B22F11E6B46C2B44C0921212E05A621B3910C7095A4D3CF1BCE9206E6D9A378E1EB47D4E3ED0E1EA148CBBDFAE31D282CBBD918303A679D32F5D9A83A7E5DAAC8CBD607D77507EF7ECC9230C165012A0DED57FFE1230C51186B43E65AE2ED532D164B89DF5EFDFE6F8F2E0668DCD70BEAEB013136C8189C9A78E3B214C205D1542B821F5ED776AFF3F09576C574F0DA5CAF9FF8E9479A414D701F692B7EA17C145F28EA7AFB4015A148A4D2B6CA6E809CAD13A5A27B68FB03012231A3BF157DB13052819D70DEF9DCB24D01A0F09322BCA38D09A6C2D6B37106E65EF99A7C9541D14E407A2065D86A7655EE32600C105F1535AA4D9CE8E0842FE95F34F13580C54BB1AED9CB0E51D47EBEFCB274ACC293C23635CF62D0D6D0D031AC33040F4F233A04CF5C32C298F755B352520769EFE6696FDD3F1BEB22B15BC52FC0E41EAB70B</Value>
+              <Value name="Branch">main</Value>
+              <Value name="Protected">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="GitHub_getLastCommit\GetLastCommit.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Test GitHub Macros</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d08775f1-0443-4e82-a0a7-940c7d09298a" />
+      <Telemetry>
+        <PreviousWorkflowId value="07dd56bb-7f0e-4e5c-81dc-73c09f05929b" />
+        <OriginWorkflowId value="07dd56bb-7f0e-4e5c-81dc-73c09f05929b" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
