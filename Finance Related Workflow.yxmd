@@ -47,7 +47,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_10480_dcda96aef3fc7f40bde3e8ef439399a7_\Engine_10480_735a33b944c7af45ae9ac519fd0fe1a3~.yxdb</TempFile>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_20660_99661b40e1fde94e8c377e7b31d841c3_\Engine_20660_8a5929c03e60c547bec9035913d89df9~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -95,7 +95,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings>
-        <Position x="390" y="150" />
+        <Position x="462" y="30" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -104,7 +104,7 @@
           <Value name="FilePath" />
           <Value name="TargetPath" />
           <Value name="SelfCommit">True</Value>
-          <Value name="TargetDirectory">gitmacro-testing</Value>
+          <Value name="TargetDirectory" />
           <Value name="RepoOwner">JT-Alteryx</Value>
           <Value name="GitHubRepo">sample_delete</Value>
           <Value name="Branch">develop</Value>
