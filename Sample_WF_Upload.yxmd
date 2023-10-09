@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings>
+        <Position x="354" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Disable">False</Value>
+          <Value name="BatchCommit">False</Value>
+          <Value name="FilePath" />
+          <Value name="TargetPath" />
+          <Value name="SelfCommit">True</Value>
+          <Value name="TargetDirectory">[Folder name]</Value>
+          <Value name="RepoOwner">jt-alteryx</Value>
+          <Value name="GitHubRepo">sample_delete</Value>
+          <Value name="Branch">main</Value>
+          <Value name="Protected">False</Value>
+          <Value name="CommitMessage">Commit message here...</Value>
+          <Value name="BaseAddress">https://api.github.com/</Value>
+          <Value name="AccessToken">410E39F3189350334EB012FAFE741F129D60BD712D637D8C26640531451E9FEFF05BF14E21062FB8DE3ED36299549DAE031B1D34697BA060F22D87451C72FEA54B98113A36C39B30F7B7D282C9D98C0BF8251A260CDF9EF5F36668F8A3489A8D38613776300035D5226280EE07A8C35CB8761B3E8E241E50B031D0BE7AF0D72F8F76CA6E581AFBEFA18A8464012A70E759212BB022A84F4F344EBFF33564AB9150DF99DEA5C3C5FC90E5825ACDC15D108511F1E92BCD84E0AE607A915229984A01BB532277DF6FDD9B18E35A1BDFDD79317080DB885396498F83620D4535D53BA9AD98EB81C30C06F14FA803D270F48A0B25E266DB03AF4C9A5FC7F9FEFE8D225F72182A8994ECA52FE88109A898D50EA6700C755CA4B76EDC27B6A74C1D3D9873D7C4E716AF99FF0F87CC7A0D11249878DBBE898AA2026C4B245AD202D21FEE7E2042CB46B10FA4B40DA0AA2893F293D44E200793D83</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="GitHub_Commit_1_0\GitHub Commit.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <SortedGrouping value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Sample_WF_Upload</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="9b657e4d-2a16-4fdf-9325-91ecf5615ace" />
+      <Telemetry>
+        <PreviousWorkflowId value="312ff841-2c34-4fbe-b073-5b6d4839bdca" />
+        <OriginWorkflowId value="312ff841-2c34-4fbe-b073-5b6d4839bdca" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
